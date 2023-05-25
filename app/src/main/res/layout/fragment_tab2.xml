@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".TabFragment2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact No"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/etContactNo2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_edittext"
+            android:gravity="center"
+            android:hint="@string/contactNo"
+            android:inputType="phone"
+            android:textSize="@dimen/edit_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reservation  under:"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/etReservationName2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_edittext"
+            android:gravity="center"
+            android:hint="@string/reserveeName"
+            android:inputType="text"
+            android:textSize="@dimen/edit_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No. of Seatings:"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/etNoOfSeats"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_edittext"
+            android:gravity="center"
+            android:hint="@string/noOfSeats"
+            android:inputType="number"
+            android:textSize="@dimen/edit_text_size" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resevation Time :"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_edittext"
+            android:gravity="center"
+            android:textSize="@dimen/edit_text_size" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Procced" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">HomeDinein</string>
+    <string name="sign_password">Password</string>
+    <string name="sign_submit">Signup</string>
+    <string name="login_username">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_submit">login</string>
+    <string name="sign_password1">Re-enter Password</string>
+    <string name="not_reg">Login using:</string>
+    <string name="log_ck">Show Password</string>
+    <string name="btn_skip">Skip</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="reg_submit">Register</string>
+    <string name="registerFrag">Create Account</string>
+    <string name="loginFrag">Login Instead</string>
+
+    <string name="tab_fragment1">Delivery</string>
+    <string name="tab_fragment2">Dine-in</string>
+
+    <string name="contactNo">(XXX) XXX-XXXX</string>
+    <string name="reserveeName">John Doe</string>
+    <string name="addressLine1">Apt No, Street Name/No</string>
+    <string name="addressLine2">City</string>
+    <string name="postalCode">VXX XXX</string>
+
+    <string name="noOfSeats">0-99</string>
+
+</resources>

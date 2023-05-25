@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SigninFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <EditText
+            android:id="@+id/reg_username"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_edittext"
+            android:gravity="center"
+            android:hint="@string/login_username"
+            android:inputType="textEmailAddress"
+            android:textSize="@dimen/edit_text_size"/>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/reg_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_edittext"
+                android:gravity="center"
+                android:hint="@string/login_password"
+                android:inputType="textPassword"
+                android:paddingEnd="@dimen/my_button_size"
+                android:paddingRight="@dimen/my_button_size"
+                android:textSize="@dimen/edit_text_size"/>
+
+            <ImageButton
+                android:id="@+id/regShowHidePass"
+                android:background="@drawable/ic_show_eye"
+                android:layout_width="@dimen/my_button_size"
+                android:layout_height="@dimen/my_button_size"
+                android:layout_alignEnd="@id/reg_password"
+                android:layout_alignRight="@id/reg_password"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:tag="show" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/reg_password_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_edittext"
+                android:gravity="center"
+                android:hint="@string/login_password"
+                android:inputType="textPassword"
+                android:paddingEnd="@dimen/my_button_size"
+                android:paddingRight="@dimen/my_button_size"
+                android:textSize="@dimen/edit_text_size"/>
+
+            <ImageButton
+                android:id="@+id/regShowHidePassConfirm"
+                android:background="@drawable/ic_show_eye"
+                android:layout_width="@dimen/my_button_size"
+                android:layout_height="@dimen/my_button_size"
+                android:layout_alignEnd="@id/reg_password_confirm"
+                android:layout_alignRight="@id/reg_password_confirm"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:tag="show" />
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/loginFrag"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:hint="@string/loginFrag"/>
+        <Button
+            android:id="@+id/reg_submit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_button"
+            android:hint="@string/reg_submit" />
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

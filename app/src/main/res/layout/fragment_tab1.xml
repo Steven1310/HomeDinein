@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".TabFragment1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact No"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/etContactNo1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_edittext"
+            android:gravity="center"
+            android:hint="@string/contactNo"
+            android:inputType="phone"
+            android:textSize="@dimen/edit_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reservation  under:"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/etReservationName1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_edittext"
+            android:gravity="center"
+            android:hint="@string/reserveeName"
+            android:inputType="text"
+            android:textSize="@dimen/edit_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address line 1:"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/etAddress1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_edittext"
+            android:gravity="center"
+            android:hint="@string/addressLine1"
+            android:inputType="textAutoComplete"
+            android:textSize="@dimen/edit_text_size" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address line 2:"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/etAddress2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_edittext"
+            android:gravity="center"
+            android:hint="@string/addressLine2"
+            android:inputType="textAutoComplete"
+            android:textSize="@dimen/edit_text_size" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Postal Code:"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/etPostalCode"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_edittext"
+            android:gravity="center"
+            android:hint="@string/postalCode"
+            android:inputType="textPostalAddress"
+            android:textSize="@dimen/edit_text_size" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Procced" />
+
+</LinearLayout>
